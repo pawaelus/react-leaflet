@@ -205,8 +205,6 @@ class Map extends React.Component {
         // L.circle([e.latlng.lat, e.latlng.lng], {radius: nearest.properties.distanceToPoint*1000}).addTo(this.map);
         this.nearestStationMarker.setLatLng(nearest.geometry.coordinates)
 
-        // http://api.gios.gov.pl/pjp-api/rest/station/sensors/14
-
         this.distanceLine.setLatLngs([
             [e.latlng.lat, e.latlng.lng],
             [parseFloat(nearest.geometry.coordinates[0]), parseFloat(nearest.geometry.coordinates[1])]
