@@ -36,20 +36,20 @@ class App extends React.Component {
 
         return(
             <div>
-            <AppBar position="static">
-            <Toolbar>
-                <IconButton edge="start" color="inherit" aria-label="menu">
-                    <MenuIcon />
-                </IconButton>
-                <Button  color="inherit"  aria-haspopup="true" onClick={this.moveMarker}>
-                    moveCircleMarker
-                </Button>
+            {/*<AppBar position="static">*/}
+            {/*<Toolbar>*/}
+            {/*    <IconButton edge="start" color="inherit" aria-label="menu">*/}
+            {/*        <MenuIcon />*/}
+            {/*    </IconButton>*/}
+            {/*    <Button  color="inherit"  aria-haspopup="true" onClick={this.moveMarker}>*/}
+            {/*        moveCircleMarker*/}
+            {/*    </Button>*/}
 
-            </Toolbar>
-        </AppBar>
+            {/*</Toolbar>*/}
+        {/*</AppBar>*/}
 
 
-        <Map markerPosition={markerPosition} />,
+        <Map markerPosition={markerPosition} />
 
         {/*<button  onClick={this.moveMarker}>p_button</button>*/}
             </div>
